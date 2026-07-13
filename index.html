@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="اكتشف أفضل البرامج المجانية للكمبيوتر - تحميل مباشر وآمن لأشهر التطبيقات والأدوات">
+    <title>SoftVault — أفضل برامج الكمبيوتر</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Animated Background Particles -->
+    <div class="bg-particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#logoGrad)" />
+                        <path d="M10 16L14 20L22 12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <defs>
+                            <linearGradient id="logoGrad" x1="2" y1="2" x2="30" y2="30">
+                                <stop stop-color="#6366f1"/>
+                                <stop offset="1" stop-color="#a855f7"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
+                <span class="logo-text">Soft<span class="logo-highlight">Vault</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+                <li><a href="#categories" class="nav-link">التصنيفات</a></li>
+                <li><a href="#programs" class="nav-link">البرامج</a></li>
+                <li><a href="#features" class="nav-link">المميزات</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="search-box" id="searchBox">
+                    <input type="text" placeholder="ابحث عن برنامج..." id="searchInput">
+                    <button class="search-btn" id="searchBtn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                        </svg>
+                    </button>
+                </div>
+                <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع">
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                        <circle cx="12" cy="12" r="5"/><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72 1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                    </svg>
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="القائمة">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>أكثر من 500+ برنامج متاح للتحميل</span>
+            </div>
+            <h1 class="hero-title">
+                اكتشف <span class="gradient-text">أفضل البرامج</span>
+                <br>لجهاز الكمبيوتر
+            </h1>
+            <p class="hero-description">
+                مجموعة منتقاة بعناية من أقوى وأشهر البرامج المجانية والمدفوعة. 
+                تحميل مباشر وآمن مع شرح مفصّل لكل برنامج.
+            </p>
+            <div class="hero-actions">
+                <a href="#programs" class="btn btn-primary">
+                    <span>تصفح البرامج</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                        <path d="m15 18-6-6 6-6"/>
+                    </svg>
+                </a>
+                <a href="#categories" class="btn btn-secondary">
+                    <span>التصنيفات</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="500">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">برنامج</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="2">0</span><span class="stat-plus">M+</span>
+                    <span class="stat-label">تحميل</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="50">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">تصنيف</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-cards">
+                <div class="float-card card-1">
+                    <div class="float-card-icon" style="background: linear-gradient(135deg, #0078d4, #00bcf2);">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M3 12V6.75L9 5.43V11.91L3 12M20 3V11.75L10 11.9V5.21L20 3M3 13L9 13.09V19.9L3 18.75V13M10 13.1L20 13V22L10 20.09V13.1Z"/></svg>
+                    </div>
+                    <span>Windows</span>
+                </div>
+                <div class="float-card card-2">
+                    <div class="float-card-icon" style="background: linear-gradient(135deg, #ff6b6b, #ee5a24);">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                    </div>
+                    <span>آمن 100%</span>
+                </div>
+                <div class="float-card card-3">
+                    <div class="float-card-icon" style="background: linear-gradient(135deg, #a855f7, #6366f1);">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
+                    </div>
+                    <span>تحميل سريع</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">التصنيفات</span>
+                <h2 class="section-title">تصفح حسب <span class="gradient-text">التصنيف</span></h2>
+                <p class="section-desc">اختر التصنيف المناسب لاحتياجاتك واكتشف البرامج المتاحة</p>
+            </div>
+            <div class="categories-grid">
+                <button class="category-card active" data-category="all" id="cat-all">
+                    <div class="category-icon" style="--cat-color: #6366f1;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                    </div>
+                    <span class="category-name">الكل</span>
+                    <span class="category-count">8</span>
+                </button>
+                <button class="category-card" data-category="development" id="cat-dev">
+                    <div class="category-icon" style="--cat-color: #3b82f6;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                    <span class="category-name">التطوير</span>
+                    <span class="category-count">2</span>
+                </button>
+                <button class="category-card" data-category="media" id="cat-media">
+                    <div class="category-icon" style="--cat-color: #f59e0b;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                    </div>
+                    <span class="category-name">الوسائط</span>
+                    <span class="category-count">2</span>
+                </button>
+                <button class="category-card" data-category="communication" id="cat-comm">
+                    <div class="category-icon" style="--cat-color: #10b981;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m21 15-3.4-3.4a2 2 0 0 0-2.83 0L13 13.34a2 2 0 0 1-2.83 0l-2.51-2.51a2 2 0 0 0-2.83 0L1.5 14.17"/><path d="M21 11V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6"/></svg>
+                    </div>
+                    <span class="category-name">التواصل</span>
+                    <span class="category-count">1</span>
+                </button>
+                <button class="category-card" data-category="utilities" id="cat-util">
+                    <div class="category-icon" style="--cat-color: #ef4444;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <span class="category-name">أدوات</span>
+                    <span class="category-count">2</span>
+                </button>
+                <button class="category-card" data-category="browsers" id="cat-browser">
+                    <div class="category-icon" style="--cat-color: #8b5cf6;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    </div>
+                    <span class="category-name">متصفحات</span>
+                    <span class="category-count">1</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs" id="programs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">البرامج</span>
+                <h2 class="section-title">أفضل البرامج <span class="gradient-text">المنتقاة</span></h2>
+                <p class="section-desc">مجموعة مختارة بعناية من أفضل البرامج وأكثرها شهرة واستخداماً</p>
+            </div>
+            <div class="programs-grid" id="programsGrid">
+                <!-- Cards will be injected by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">لماذا نحن؟</span>
+                <h2 class="section-title">مميزات <span class="gradient-text">SoftVault</span></h2>
+                <p class="section-desc">نقدم لك تجربة فريدة ومميزة في تحميل البرامج</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" id="feat-safe">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>تحميل آمن</h3>
+                    <p>جميع البرامج يتم فحصها ضد الفيروسات والبرمجيات الخبيثة قبل رفعها</p>
+                </div>
+                <div class="feature-card" id="feat-fast">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                    </div>
+                    <h3>سرعة فائقة</h3>
+                    <p>سيرفرات عالية السرعة تضمن لك تحميل سريع بدون انقطاع</p>
+                </div>
+                <div class="feature-card" id="feat-update">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"/></svg>
+                    </div>
+                    <h3>تحديث مستمر</h3>
+                    <p>نوفر لك دائماً أحدث إصدارات البرامج فور صدورها رسمياً</p>
+                </div>
+                <div class="feature-card" id="feat-support">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h3>دعم فني</h3>
+                    <p>فريق متخصص جاهز لمساعدتك في حل أي مشكلة تواجهك</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter" id="newsletter">
+        <div class="container">
+            <div class="newsletter-card">
+                <div class="newsletter-content">
+                    <h2>ابقَ على اطلاع</h2>
+                    <p>اشترك في نشرتنا البريدية ليصلك كل جديد عن البرامج والتحديثات</p>
+                </div>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="أدخل بريدك الإلكتروني" required id="emailInput">
+                    <button type="submit" class="btn btn-primary">اشتراك</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">
+                            <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+                                <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#logoGrad2)" />
+                                <path d="M10 16L14 20L22 12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                    <linearGradient id="logoGrad2" x1="2" y1="2" x2="30" y2="30">
+                                        <stop stop-color="#6366f1"/>
+                                        <stop offset="1" stop-color="#a855f7"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </span>
+                        <span class="logo-text">Soft<span class="logo-highlight">Vault</span></span>
+                    </a>
+                    <p class="footer-desc">وجهتك الأولى لتحميل أفضل البرامج بأمان وسرعة. نسعى لتقديم تجربة فريدة لعشاق التقنية.</p>
+                </div>
+                <div class="footer-links-group">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#categories">التصنيفات</a></li>
+                        <li><a href="#programs">البرامج</a></li>
+                        <li><a href="#features">المميزات</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>تصنيفات</h4>
+                    <ul>
+                        <li><a href="#">برامج التطوير</a></li>
+                        <li><a href="#">برامج الوسائط</a></li>
+                        <li><a href="#">أدوات النظام</a></li>
+                        <li><a href="#">المتصفحات</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>تواصل معنا</h4>
+                    <ul>
+                        <li><a href="#">support@softvault.com</a></li>
+                        <li><a href="#">سياسة الخصوصية</a></li>
+                        <li><a href="#">شروط الاستخدام</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SoftVault. جميع الحقوق محفوظة.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter" class="social-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                    <a href="#" aria-label="GitHub" class="social-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+                    <a href="#" aria-label="YouTube" class="social-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Program Detail Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="programModal">
+            <button class="modal-close" id="modalClose" aria-label="إغلاق">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+            <div class="modal-header">
+                <div class="modal-icon" id="modalIcon"></div>
+                <div>
+                    <h2 id="modalTitle"></h2>
+                    <span class="modal-category" id="modalCategory"></span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p id="modalDescription"></p>
+                <div class="modal-info-grid">
+                    <div class="modal-info-item">
+                        <span class="modal-info-label">الإصدار</span>
+                        <span class="modal-info-value" id="modalVersion"></span>
+                    </div>
+                    <div class="modal-info-item">
+                        <span class="modal-info-label">الحجم</span>
+                        <span class="modal-info-value" id="modalSize"></span>
+                    </div>
+                    <div class="modal-info-item">
+                        <span class="modal-info-label">الترخيص</span>
+                        <span class="modal-info-value" id="modalLicense"></span>
+                    </div>
+                    <div class="modal-info-item">
+                        <span class="modal-info-label">النظام</span>
+                        <span class="modal-info-value" id="modalOS"></span>
+                    </div>
+                </div>
+                <div class="modal-features">
+                    <h3>أبرز المميزات</h3>
+                    <ul id="modalFeatures"></ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-primary modal-download" id="modalDownload">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    <span>تحميل الآن</span>
+                </a>
+                <a href="#" class="btn btn-secondary" id="modalWebsite" target="_blank">
+                    <span>زيارة الموقع</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scrollTop" aria-label="العودة للأعلى">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
